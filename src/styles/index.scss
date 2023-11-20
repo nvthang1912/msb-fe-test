@@ -1,0 +1,110 @@
+@import './color.scss';
+@import './Header.scss';
+@import './Home.scss';
+@import './Account.scss';
+
+@font-face {
+  font-family: 'Inter';
+  src: url(../assests/fonts/Inter-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 500;
+  src: url(../assests/fonts/Inter-Medium.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 600;
+  src: url(../assests/fonts/Inter-SemiBold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 700;
+  src: url(../assests/fonts/Inter-Bold.woff) format('woff');
+}
+
+* {
+  font-family: 'Inter';
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.msb-app {
+  height: 100vh;
+  background: $gray-50;
+}
+.flex {
+  display: flex;
+}
+.w {
+  &-120 {
+    width: 120px;
+  }
+}
+.p {
+  &-16 {
+    padding: 16px;
+  }
+}
+.pr {
+  &-16 {
+    padding-right: 16px;
+  }
+}
+.pl {
+  &-16 {
+    padding-left: 16px;
+  }
+}
+.m {
+  &-16 {
+    margin: 16px;
+  }
+}
+.mr {
+  &-16 {
+    margin-right: 16px;
+  }
+  &-12 {
+    margin-right: 12px;
+  }
+}
+.ml {
+  &-16 {
+    margin-left: 16px;
+  }
+  &-12 {
+    margin-left: 12px;
+  }
+}
+.mt {
+  &-16 {
+    margin-top: 16px;
+  }
+  &-8 {
+    margin-top: 8px;
+  }
+  &-3 {
+    margin-top: 3px;
+  }
+}
+.mb {
+  &-16 {
+    margin-bottom: 16px;
+  }
+  &-8 {
+    margin-bottom: 8px;
+  }
+}
